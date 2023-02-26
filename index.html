@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styleCalculator.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Calculator</title>
+</head>
+<body>
+    
+    <form  action="">
+        
+
+          <!--  <legend>Personal Data </legend>--> 
+        <div class="container">
+            <div class="header">
+                <h1>Fitness Calculator GEB</h1>
+            </div>
+            <label for=""><strong>Name : </strong> </label>
+            <input id= "name" type="name"  placeholder="add your name..."required>
+            <label for=""> <strong> Age : </strong> </label>
+            <input id="age" type="number" placeholder="insert your age..."required>
+            <label for=""><strong> Weight : </strong> </label>
+            <input id="weight" type="number" placeholder="insert your weight (kg)"required>
+
+            <label for=""><strong> Height : </strong> </label>
+            <input id="height" type="number" placeholder="insert your Height (cm)"required>
+
+            <label for=""><strong> Gender  : </strong></label>
+            <select name="" id="gender">
+                <option value="empty"> </option>
+                <option value="man">Man</option>
+                <option value="women">Women</option> 
+            </select required>
+            <label for=""><strong> Activity Level  : </strong></label>
+            <select id="activity">
+                <option value="empty2"> </option>
+                <option value=1.2>1.2</option>
+                <option value=1.375>1.375</option>
+                <option value=1.55>1.55</option>
+                <option value=1.725>1.725</option>
+                <option value=1.9>1.9</option>
+            </select required>
+            
+            <button id="calculate1" value="calculate" onclick="GEB()"><strong>Calculate</strong></button>
+            <br>
+            <label for=""><strong> Result : </strong> </label>
+            <label for="">....</label>
+
+            
+
+        </div>
+
+    </form>
+    
+    <div id="resultFinal"></div>
+
+    <script src="calculator.js"></script>
+
+</body>
+</html>
