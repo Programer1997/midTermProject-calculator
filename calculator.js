@@ -25,7 +25,7 @@ var result =0;
 
     var resultadoDiv = document.getElementById("resultFinal");
    
-	resultadoDiv.innerHTML = "<p>Tu GEB es: <strong>" + result.toFixed(2) + " calorías</strong></p>";
+	resultadoDiv.innerHTML = "<p>Tu GEB es: <strong>" + result.toFixed(2) + " calorías</strong><br> It means that you need consume that number if you want keep your weight</p>";
 
     
 
