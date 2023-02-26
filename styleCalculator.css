@@ -79,3 +79,25 @@ header{
     height: auto;
     
 }
+
+
+@media (max-width:590px){
+    body,html {
+        width: 100%;
+    }
+
+    #calculate2{
+        
+        width:auto;
+        height: auto;
+        font-size: large;
+        
+    }
+
+    .header{
+        width: auto;
+        height: auto;
+        font-size: 0.5em;
+    }
+
+}
